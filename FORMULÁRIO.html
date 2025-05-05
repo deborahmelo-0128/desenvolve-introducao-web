@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Satisfação</title>
+</head>
+<body>
+
+<h2>Dados Pessoais</h2>
+<form>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome"><br><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="telefone">Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone"><br><br>
+
+    <h2>Pesquisa</h2>
+
+    <p>1. Como você avalia nosso atendimento?</p>
+    <input type="radio" id="atendimento_otimo" name="atendimento" value="otimo">
+    <label for="atendimento_otimo">Ótimo</label><br>
+    <input type="radio" id="atendimento_bom" name="atendimento" value="bom">
+    <label for="atendimento_bom">Bom</label><br>
+    <input type="radio" id="atendimento_regular" name="atendimento" value="regular">
+    <label for="atendimento_regular">Regular</label><br>
+    <input type="radio" id="atendimento_ruim" name="atendimento" value="ruim">
+    <label for="atendimento_ruim">Ruim</label><br><br>
+
+    <p>2. Você recomendaria nossa empresa para outras pessoas?</p>
+    <input type="radio" id="recomenda_sim" name="recomenda" value="sim">
+    <label for="recomenda_sim">Sim</label><br>
+    <input type="radio" id="recomenda_nao" name="recomenda" value="nao">
+    <label for="recomenda_nao">Não</label><br><br>
+
+    <p>3. Qual sua opinião sobre nossos produtos?</p>
+    <select id="produtos" name="produtos">
+        <option value="excelente">Excelente</option>
+        <option value="bom">Bom</option>
+        <option value="satisfatorio">Satisfatório</option>
+        <option value="ruim">Ruim</option>
+    </select><br><br>
+
+    <input type="checkbox" id="autoriza" name="autoriza" value="sim">
+    <label for="autoriza">Autorizo compartilhar minha resposta com terceiros.</label><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
