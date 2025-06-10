@@ -1,0 +1,12 @@
+/* Color Theme Swatches in Hex */
+.principal { color: #84878C; }
+.UI/UX-2-hex { color: #59201B; }
+.background { color: #A6615B; }
+.UI/UX-4-hex { color: #F2F2F2; }
+.destaque { color: #131111; }
+html{
+    background-color: #ebd5d5;
+    color: #5178bd;
+    font-family: 'Arial', sans-serif;
+}
+
